@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = `Git is a software that tracks changes`;
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = `GitHub is basically the cloud for code`;
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: `creates a new Git repository`,
+    code: `git init`
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+    description: `clone is getting your own copy of a repository`,
+    code: `git clone URL`
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description: `displays the state of the working directory`,
+    code: `git status`
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: `Git add will add a change to the working directory `,
+    code: `git add` 
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: `git commit will save all changes added with a breif description of what was done`,
+    code: `git commit -m""`
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description: `this creates a remote conenction from the origin pointing back to the cloned repository`,
+    code: `git remote add origin`
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: `Git push will send the updated file back to gitHub`,
+    code: `git push`
+}
